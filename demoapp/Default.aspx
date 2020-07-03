@@ -12,7 +12,7 @@
             This is a from "AZ-300-Demo-App-01" application
         </div>
         
-        <% For i As Integer = 16 To 24 Step 2%>
+        <% For i As Integer = 1 To 50 Step 2%>
             <div style="font-size: <% Response.Write(i)%>">
                 Hello World<br />
             </div>
